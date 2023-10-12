@@ -1,0 +1,3 @@
+
+class ExcepcionMenu(Exception):
+    pass

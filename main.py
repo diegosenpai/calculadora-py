@@ -1,6 +1,8 @@
 from input import temperatura as subTemp
 from input import menuLongitud as subLng
 from input import menuMasa as subMasa
+from input import menuVolumen as subVol
+from input import menuGrados as subGrados
 from excepciones import ExcepcionMenu
 import os
 
@@ -30,7 +32,13 @@ while True:
         if menu == 3:
             limpiarPantalla()
             subMasa.subMenuMasa()
-            
+        if menu == 4:
+            limpiarPantalla()
+            subVol.subMenuVolumen()
+        if menu == 5:
+            limpiarPantalla()
+            subGrados.subMenuAngulos()
+
     except (ValueError,ExcepcionMenu) as error:
         print(error)
     

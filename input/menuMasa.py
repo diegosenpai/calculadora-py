@@ -22,4 +22,4 @@ def subMenuMasa():
         valorLibras = masa.convertirKilosALibras(valorKilos)
         print(f"{valorKilos:.2f} kilos equivale a {valorLibras:.2f} libras")    
     else:
-        raise ExcepcionMenu(f"Sub-Menu Longitud: {menuMasa} no es una opcion válida") 
+        raise ExcepcionMenu(f"Sub-Menu Masa: {menuMasa} no es una opcion válida") 

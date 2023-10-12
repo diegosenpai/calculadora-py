@@ -1,8 +1,8 @@
 import math
 
 def convertirGradosARadianes(valorEnGrados):
-    return math.degrees(valorEnGrados)
+    return math.radians(valorEnGrados)
 
 def convertirRadianesAGrados(valorEnRadianes):
-    return math.radians(valorEnRadianes)
+    return math.degrees(valorEnRadianes)
 

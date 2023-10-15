@@ -2,6 +2,11 @@ from conversor import longitud
 from excepciones import ExcepcionMenu
 
 def subMenuLongitud():
+    """Función que despliega sub-menú para transformaciones de longitud
+
+    Raises:
+        ExcepcionMenu: si la opción ingresada no corresponde a una opción válida
+    """
     menuLng = 0
     while True:
         try:

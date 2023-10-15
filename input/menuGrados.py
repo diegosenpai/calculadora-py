@@ -2,6 +2,12 @@ from conversor import angulos
 from excepciones import ExcepcionMenu
 
 def subMenuAngulos():
+    """Función que despliega sub-menu para Ángulos Planos
+
+
+    Raises:
+        ExcepcionMenu: si la opción ingresada no corresponde a una opción válida
+    """
     menuAng = 0
     while True:
         try:

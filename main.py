@@ -1,3 +1,7 @@
+"""
+Programa que permite realizar conversiones de unidades 
+de temperatura, longitud, masa, volumen y angulos
+"""
 from input import temperatura as subTemp
 from input import menuLongitud as subLng
 from input import menuMasa as subMasa

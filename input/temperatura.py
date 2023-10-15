@@ -1,6 +1,12 @@
 from conversor import temperatura as temp
 from excepciones import ExcepcionMenu
-def subMenuTemperatura():    
+
+def subMenuTemperatura():
+    """Función que muestra sub-menú para transformaciones de temperatura
+
+    Raises:
+        ExcepcionMenu: si la opción ingresada no corresponde a una opción válida
+    """            
     menuTmp = 0
     while True:
         try:

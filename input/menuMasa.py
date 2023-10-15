@@ -2,6 +2,11 @@ from conversor import masa
 from excepciones import ExcepcionMenu
 
 def subMenuMasa():
+    """Función que despliega sub-menú para transformaciones de masa
+
+    Raises:
+        ExcepcionMenu: si la opción ingresada no corresponde a una opción válida.
+    """
     menuMasa = 0
     while True:
         try:

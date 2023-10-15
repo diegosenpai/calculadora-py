@@ -2,6 +2,11 @@ from conversor import volumen
 from excepciones import ExcepcionMenu
 
 def subMenuVolumen():
+    """Función que despliega sub-menú para transformaciones de volumen
+
+    Raises:
+        ExcepcionMenu: si la opción ingresada no corresponde a una opción válida
+    """
     menuVol = 0
     while True:
         try:
